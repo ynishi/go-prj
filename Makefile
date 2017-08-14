@@ -1,17 +1,12 @@
-.PHONY: setup build
-
-build: clean
-	go test
-	go build
-
-clean:
-	rm -f go-prj
+.PHONY: setup
 
 setup:
 	rm -rf .git
 	echo "# Go project" > README.md
+	echo >> README.md
+	echo "* License is Apache-2.0" >> README.md
 	go test
 	go run main.go
+	mv Makefile.tmpl Makefile
 	@echo
-	@echo "Remove setup from Makefile."
 	@echo "Do git init"

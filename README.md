@@ -8,10 +8,11 @@
 ```bash
 $ go get -d "github.com/ynishi/go-prj"
 $ cd $GOPATH/src
-$ mv github.com/ynishi/go-prj /path/to/your/prj
-$ cd /path/to/your/prj
+$ cp -r github.com/ynishi/go-prj /path/to/projects/new-project
+$ cd !$
+
+# setup new project
 $ make setup
-# remove setup for Makefile
-$ vi Makefile
 $ git init
+# change README and LICENSE
 ```
