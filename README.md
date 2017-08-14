@@ -1,4 +1,4 @@
-# Go Project template for executable. 
+# Go Project template for executable.  [![Build Status](https://travis-ci.org/ynishi/go-prj.svg?branch=master)](https://travis-ci.org/ynishi/go-prj)
 
 * Go version is 1.8
 * License is Apache-2.0 
