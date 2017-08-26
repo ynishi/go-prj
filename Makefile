@@ -2,7 +2,7 @@
 
 setup:
 	rm -rf .git
-	echo "# Go project" > README.md
+	echo "# Go project [![Build Status](https://travis-ci.org/path/to/repo.svg?branch=master)](https://travis-ci.org/path/to/repo)" > README.md
 	echo >> README.md
 	echo "* License is Apache-2.0" >> README.md
 	go test
