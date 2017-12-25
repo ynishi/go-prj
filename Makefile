@@ -6,7 +6,7 @@ setup:
 	echo >> README.md
 	echo "* License is Apache-2.0" >> README.md
 	cd cmd/go-prj && go test
-	cd cmd/go-prj && go run main.go
+	go run cmd/go-prj/main.go
 	mv Makefile.tmpl Makefile
 	@echo
 	@echo "Do git init"
